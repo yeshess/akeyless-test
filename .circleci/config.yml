@@ -4,7 +4,7 @@ jobs:
     docker:
       - image: akeyless/ci_base
     environment:
-      mysecret: akeyless://CircleCI-demo
+      mysecret: akeyless://CircleCI-demo-secret
       BASH_ENV: ~/.akeyless/akeyless_env.sh
     steps:
       - checkout # check out the code in the project directory
